@@ -1,0 +1,35 @@
+---
+layout: default
+title: django-oscar - Domain-driven e-commerce for Django
+---
+<section id="news" class="body">
+<h1>News</h1>
+    {% if site.posts != empty %}
+        <ol id="posts_list" class="hfeed">
+        {% for post in site.posts %}
+		{% capture post_url %}{{ site.baseurl }}{{ post.url }}{% endcapture %}
+            <li>
+                <article class="hentry">
+                    <header>
+                        <h2 class="entry_title">
+                            <a href="{{ post_url }}" rel="bookmark" title="Permalink to {{ post.title }}">{{ post.title }}</a>
+                        </h2>
+                    </header>
+                    <abbr class="published" title="{{ post.date }}">{{ post.date | date_to_string }}</abbr>
+                    <div class="entry_content">
+                        <p>{{ post.content | strip_html | truncatewords:"30" }} <a href="{{ post_url }}">Read More &raquo;</a></p>
+                    </div>
+                </article>
+            </li>
+        {% endfor %}
+        </ol>
+    {% endif %}
+</section>
+<hr />
+<section id="about">
+    <h1>About</h1>
+    <p>He all, I am a programmer originally from the UK but I have been operating out Melbourne for a couple of years now.
+       Out of hours I do pretty much the same thing as I do as a Director at <a href="http://www.tangentone.com.au">Tangent/One</a>,
+       which is code. Home does usuually involves more beer - which I brew myself.
+    </p>
+</section>

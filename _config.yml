@@ -1,0 +1,5 @@
+auto: true
+baseurl: /
+markdown: rdiscount
+pygments: true
+paginate: 10
