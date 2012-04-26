@@ -7,16 +7,16 @@ title: Making the consummé of Service Oriented Architecture
 
 It is no great secret amongst those I work with that I am a big fan of
 Service Oriented Architecture (SOA). I should probably clarify that I equally
-an anti-fan of anything that includes the word _enterprise_ in it's description.
-So when I SOA I do not mean horribly convoluted Java/.NET monstrosities. I just
-mean the breaking down of useful sub-system into separate services that can be
-reused easily.
+an big anti-fan of anything that includes the word _enterprise_ in it's
+description. So when I SOA I do not mean horribly convoluted Java/.NET
+monstrosities. I just mean the breaking down of useful sub-system into separate
+services that can be reused easily.
 
 In the past I have extoled the miriad advantages of SOA to anyone who would
-listen whether it was a traditional SOA composed of RESTful services or a
+listen whether it was a traditional SOA composed of RESTful services or
 an Event Driven SOA using [RabbitMQ](http://www.rabbitmq.com) or
 [ZeroMQ](www.zeromq.org) as backbone. Recently however I have come across some
-new players who have, in my opnion, done something pretty smart. They have
+new players who have, in my opinion, done something pretty smart. They have
 achieved the consummé of SOA. They have looked at what people writting
 applications (or _apps_ as they appear to be called now) actually require
 from a backend and you know what? It doesn't appear to be that different from
