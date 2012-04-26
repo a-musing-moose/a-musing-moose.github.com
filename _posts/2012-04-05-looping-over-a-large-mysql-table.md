@@ -3,6 +3,8 @@ layout: post
 title: Looping over really big database tables
 ---
 
+# Looping over really big database tables
+
 I deals with large (not Big with a capital B but still pretty large) amounts of
 data quite often.  We have recently been trying to optimise what would appear to
 be a fairly simple problem - iterating over the entire contents of a table.
