@@ -3,7 +3,7 @@ layout: post
 title: Making the consummé of Service Oriented Architecture
 ---
 
-# Making the consommé of Service Oriented Architecture
+# Making the consommé of Service Oriented Architecture.
 
 It is no great secret amongst those I work with that I am a big fan of
 Service Oriented Architecture (SOA). I should probably clarify that I equally
