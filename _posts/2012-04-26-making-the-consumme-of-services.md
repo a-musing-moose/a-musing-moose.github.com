@@ -51,22 +51,22 @@ about it the more I realised the power in these sorts of services and just how
 much they really could be used for.
 
 So these sort of services are actually pretty neat and can cover the basic
-backend needs of most mobile applications. Some even over _code hosting_ where
+backend needs of most mobile applications. Some even cover _code hosting_ where
 you can offload some of your processing to their _cloud_ allowing for some
 pretty smart backends to be created. Realling distilling down all the
 complexity into just the tasty bits you really need. Just like a consommé.
 
-The numbers speak for themselves to. Since
+The numbers speak for themselves. Since
 [Appcelerator](http://www.appcelerator.com) released their cloud services just
 over a week ago there have been over 7K new projects started that hook up to
 their service.
 
 My only real remaining concerns are around the security/accessiblity of storing
-my data in _the cloud_ and whilst they purport scalability and the certain can
-scale in terms of raw throughput I do still wonder at what point an application
+my data in _the cloud_ and whilst they purport scalability and they certain can
+scale in terms of raw throughput, I do still wonder at what point an application
 becomes to complex to have it's backend purely based on these services.
 
 This approach to SOA has inspired me somewhat and I am currently throwing
 together some expiremental libraries to make writting these sorts of services
-easily and should the prove successful I let you all know about them and how
+easy and should they prove successful I let you all know about them and how
 you can build your own cloud services.
